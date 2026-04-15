@@ -1,0 +1,36 @@
+Job Title: Data Scientist (Generative AI Focus)
+Location: Remote / Pune
+Employment Type: Full-time
+
+About the Role:
+We are looking for a highly skilled Data Scientist to join our AI engineering team. In this role, you will be responsible for designing, building, and deploying machine learning models and LLM-powered applications. You will work closely with our engineering team to automate internal workflows using the latest Generative AI technologies.
+
+Key Responsibilities:
+
+Design and implement AI pipelines using Large Language Models (LLMs) to solve complex business problems.
+
+Extract, clean, and analyze large datasets to train and fine-tune predictive models.
+
+Monitor, debug, and optimize LLM chains in production to prevent hallucinations and ensure high accuracy.
+
+Collaborate with stakeholders to translate business requirements into technical AI solutions.
+
+Required Skills & Qualifications:
+
+Education: Bachelor’s or Master’s degree in Computer Science, Artificial Intelligence, Data Science, or a related field.
+
+Experience: 3+ years of professional experience in Data Science or Machine Learning.
+
+Programming Languages: Proficiency in Python and SQL.
+
+AI & Machine Learning: Strong understanding of Natural Language Processing (NLP) and predictive modeling.
+
+Frameworks & Tools: Hands-on experience with LangChain, Scikit-Learn, and HuggingFace APIs. Experience with tracing and debugging tools like LangSmith is highly desirable.
+
+General Tools: Familiarity with Git, Docker, and Jupyter Notebooks.
+
+What Makes You Stand Out:
+
+Proven track record of deploying LLM applications to production.
+
+Experience with prompt engineering and mitigating AI hallucinations.

@@ -1,0 +1,30 @@
+Name: Marcus Johnson
+Email: m.johnson.tech@email.com
+Phone: (555) 987-6543
+LinkedIn: linkedin.com/in/marcusjdata
+
+Professional Summary
+Detail-oriented Data Analyst transitioning into a Data Scientist role. Experienced in data visualization, statistical analysis, and writing Python scripts to clean and manipulate large datasets. Eager to apply machine learning techniques to real-world problems.
+
+Skills
+
+Languages: Python, SQL
+
+Data Libraries: Pandas, NumPy, Matplotlib, Seaborn
+
+Tools: Tableau, Excel, Git, VS Code
+
+Core Competencies: Data Cleaning, Exploratory Data Analysis (EDA), Basic Regression & Classification Models
+
+Professional Experience
+Data Analyst | MarketTrends Inc. | Aug 2023 – Present
+
+Developed automated Python scripts using Pandas to clean and process daily sales data, saving the team 10 hours a week.
+
+Created interactive Tableau dashboards for executive stakeholders to visualize quarterly growth metrics.
+
+Collaborated with the engineering team to extract and load data from SQL databases into analytical warehouses.
+
+Education
+
+Bachelor of Science in Computer Science – University of Texas, Austin (2023)

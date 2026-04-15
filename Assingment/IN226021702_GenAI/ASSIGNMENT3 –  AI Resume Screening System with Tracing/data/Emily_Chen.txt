@@ -1,0 +1,30 @@
+Name: Emily Chen
+Email: emily.chen.data@email.com
+Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/emilychendata
+
+Professional Summary
+Results-driven Senior Data Scientist with over 4 years of experience building and deploying machine learning models and generative AI solutions. Proven track record of leveraging LLMs to optimize business workflows and automate complex processes.
+
+Skills
+
+Languages: Python, SQL, R
+
+AI/ML Frameworks: LangChain, Scikit-Learn, TensorFlow, PyTorch, HuggingFace APIs
+
+Tools & MLOps: LangSmith, Docker, Git, AWS (SageMaker), Jupyter Notebook
+
+Core Competencies: Natural Language Processing (NLP), Predictive Modeling, Prompt Engineering, Data Extraction
+
+Professional Experience
+Data Scientist | TechNova Solutions | Jan 2022 – Present
+
+Designed and implemented an AI-powered document analysis pipeline using Python and LangChain, reducing manual processing time by 40%.
+
+Monitored and debugged LLM chains using LangSmith to ensure high accuracy and mitigate hallucination in production models.
+
+Trained and fine-tuned custom machine learning models for customer churn prediction, achieving a 92% accuracy rate.
+
+Education
+
+Master of Science in Computer Science (Focus in Artificial Intelligence) – University of California, Berkeley (2021)

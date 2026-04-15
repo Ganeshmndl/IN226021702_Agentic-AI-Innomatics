@@ -1,0 +1,28 @@
+Name: Sophia Patel
+Email: sophia.p.dev@email.com
+Phone: (555) 456-7890
+LinkedIn: linkedin.com/in/sophiapateldev
+
+Professional Summary
+Enthusiastic recent graduate and aspiring software developer with a foundation in mobile and web development. Passionate about building user-friendly applications and eager to learn new technologies in a collaborative team environment.
+
+Skills
+
+Languages: Java, Kotlin, HTML, CSS, JavaScript, Basic Python
+
+Tools & Frameworks: Android Studio, React, Node.js, Git
+
+Core Competencies: Android Development, Responsive Web Design, UI/UX Principles
+
+Professional Experience
+Software Engineering Intern | AppWorks | May 2023 – Aug 2023
+
+Assisted in the development of an e-commerce Android application using Java and XML.
+
+Designed responsive front-end web components using HTML, CSS, and JavaScript.
+
+Participated in daily agile stand-ups and contributed to code reviews for minor bug fixes.
+
+Education
+
+Bachelor of Science in Software Engineering – Sandip University (2024)
