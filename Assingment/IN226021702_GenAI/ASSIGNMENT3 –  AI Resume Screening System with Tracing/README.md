@@ -1,26 +1,22 @@
-# 🚀 GenAI - AI Resume Screening System with Tracing
+# 🚀 TalentTrace AI: Resume Screening Pipeline
 
-An internship-grade AI application for recruiter-style resume evaluation against a Job Description.
+An automated, hallucination-free AI pipeline that bridges the gap between candidate resumes and job descriptions using Large Language Models. Built for the Innomatics Technology Hub Data Science Internship.
 
-## 🚀 Snapshot
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-LCEL_Pipeline-1C3C3C?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-Llama_3.3-F55036?style=for-the-badge)
+![LangSmith](https://img.shields.io/badge/LangSmith-Observability-000000?style=for-the-badge)
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-Orchestration-darkgreen?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-LLM_Provider-black?style=flat-square)
-![LangSmith](https://img.shields.io/badge/LangSmith-Tracing-purple?style=flat-square)
-![Submission](https://img.shields.io/badge/Submission-Internship_Ready-brightgreen?style=flat-square)
+---
 
-## ✨ Key Features
+## ⚙️ How It Works (The Pipeline)
 
-- 📄 **Automated Resume Extraction**
-- 📋 **Job Description Matching** against target role requirements
-- 🧠 **Modular AI Pipeline (LCEL)**:
-  - Step 1: Candidate profile extraction (Strict JSON parsing)
-  - Step 2: Final recruiter decision and scoring logic
-- 📊 **Fit Score + Gap Analysis**: Provides a 0-100 score with detailed explanations of matching strengths and missing skills
-- 🔍 **Zero Hallucination Constraints**: Strict prompt engineering ensures the model does not assume skills not present in the resume
-- 👁️ **Pipeline Transparency**: Full integration with LangSmith for real-time monitoring, debugging, and tracing
+This project leverages LangChain Expression Language (LCEL) to create a multi-stage evaluation process:
 
+```text
+📄 Resume Text ──> 🧠 Skill Extraction ──> ⚖️ JD Matching & Scoring ──> 📊 Explainable Output
+                       (Strict JSON)           (Llama 3.3 70B)             (Score + Reasoning)
+```
 ---
 
 ## 🛠️ Tech Stack
@@ -33,19 +29,38 @@ An internship-grade AI application for recruiter-style resume evaluation against
 ## 📁 Project Structure
 
 ```text
-├── chains/
-│   ├── extraction_chain.py
-│   └── scoring_chain.py
-├── data/
-│   ├── job_description.txt
-│   ├── Emily_Chen.txt
-│   ├── Marcus_Johnson.txt
-│   ├── Sophia_Patel.txt
-│   └── David_Smith.txt
-├── prompts/
-│   ├── extraction_prompt.py
-│   └── scoring_prompt.py
-├── main.py
-├── README.md
-└── requirements.txt
+📦 ASSIGNMENT3
+ ┣ 📂 chains/
+ ┃ ┣ 📜 extraction_chain.py
+ ┃ ┗ 📜 scoring_chain.py
+ ┣ 📂 data/
+ ┃ ┣ 📜 job_description.txt
+ ┃ ┣ 📜 Emily_Chen.txt (Strong)
+ ┃ ┣ 📜 Marcus_Johnson.txt (Average)
+ ┃ ┣ 📜 Sophia_Patel.txt (Weak)
+ ┃ ┗ 📜 David_Smith.txt (Unrelated)
+ ┣ 📂 prompts/
+ ┃ ┣ 📜 extraction_prompt.py
+ ┃ ┗ 📜 scoring_prompt.py
+ ┣ 📜 main.py
+ ┣ 📜 requirements.txt
+ ┗ 📜 README.md
 ```
+## 1️⃣ Set Up Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+---
+## 2️⃣ Configure API Keys 🔐
+
+Create a `.env` file in the root directory:
+
+```env
+GROQ_API_KEY=your_api_key_here
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+LANGCHAIN_API_KEY=your_langsmith_key_here
+LANGCHAIN_PROJECT=Resume_Screening_Assignment
