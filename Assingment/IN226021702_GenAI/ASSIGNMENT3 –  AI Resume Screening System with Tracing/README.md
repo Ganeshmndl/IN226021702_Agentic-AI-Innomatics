@@ -1,4 +1,4 @@
-# AI Resume Screening System
+# 🚀 GenAI - AI Resume Screening System with Tracing
 
 An internship-grade AI application for recruiter-style resume evaluation against a Job Description.
 
