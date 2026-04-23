@@ -52,25 +52,31 @@ cd AlphaTech-Support-Agent
 ### 1. Set Up Environment
 
 Create a `.env` file in the root directory:
-GROQ_API_KEY=your_groq_api_key_here
-LANGCHAIN_API_KEY=your_langsmith_key_here
+
+```GROQ_API_KEY=your_groq_api_key_here
+   LANGCHAIN_API_KEY=your_langsmith_key_here
+```
 
 ---
 
 ### 2. Install Dependencies
 
-````bash
+```bash
 pip install -r requirements.txt
+```
 
 ---
+
 ### 4. Run Ingestion
 
 Process the 27-page technical manual into the vector database:
 
 ```bash
 python ingestion.py
+```
 
 ---
+
 ### 5. Launch the Agent
 
 Start the interactive CLI support session:
@@ -79,4 +85,4 @@ Start the interactive CLI support session:
 python main.py
 ---
 
-````
+```
