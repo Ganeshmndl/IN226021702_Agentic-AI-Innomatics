@@ -1,0 +1,19 @@
+# Environments
+venv/
+.env
+
+# Python Bytecode
+__pycache__/
+*.pyc
+
+# Local Databases (Vector Store)
+vectorstore/
+*.sqlite
+*.sqlite3
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Large Documents
+data/*.pdf

@@ -1,0 +1,9 @@
+langchain
+langgraph
+chromadb
+pypdf
+sentence-transformers
+langchain-openai
+python-dotenv
+aiosqlite
+langgraph-checkpoint-sqlite
