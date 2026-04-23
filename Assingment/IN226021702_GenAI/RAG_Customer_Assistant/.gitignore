@@ -15,5 +15,3 @@ vectorstore/
 .DS_Store
 Thumbs.db
 
-# Large Documents
-data/*.pdf
